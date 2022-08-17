@@ -17,7 +17,7 @@ async function init(){
         handleSucess(stream);
     }
     catch(e){
-        errorMsgElement.innerHTML = `navigator.getUserMedia.error:${e.toString()}`;
+        console.log(`navigator.getUserMedia.error:${e.toString()}`);
     }
 }
 

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: logo;
+  src: url(helvetica-rounded-bold.otf);
+}
+
+body {
+    background: linear-gradient(110deg, #edeef7 50%, #e4fbff 50%);
+    height: 100vh;
+}
+
+*{
+    font-family: logo;
+}
+
+h1{
+    color:#7868e6;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#container{
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content{
+    width: 100%; 
+    height: 450px;
+    border-radius: 1vh;
+    background-color: orange;
+}
+
+.box{
+    width: 600px;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: #7868e6;
+    border: solid;
+    border-color: white;
+    border-radius: 1vh;
+    color: white;
+    font-size: 2vh;
+}
+
+button:hover{
+    background-color: #271694;
+    transition: .5s;
+}

@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webcam API</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/icon.ico">
 </head>
 <body>
-    
+    <h1>Webcam & Print</h1>
+
+    <div id="container">
+        <div class="box">
+            <video id="video" class="content" playsinline autoplay></video>
+            <button id="snap">Capturar</button>
+        </div>
+        <div class="box">
+            <canvas id="canvas" class="content"></canvas>
+            <button id="snap1">FullScreen</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
